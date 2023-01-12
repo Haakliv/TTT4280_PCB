@@ -1,0 +1,242 @@
+[OutputJobFile]
+Version=1.0
+Caption=
+Description=
+VaultGUID=
+ItemGUID=
+ItemHRID=
+RevisionGUID=
+RevisionId=
+VaultHRID=
+AutoItemHRID=
+NextRevId=
+FolderGUID=
+LifeCycleDefinitionGUID=
+RevisionNamingSchemeGUID=
+
+[OutputGroup1]
+Name=Fabrication.OutJob
+Description=
+TargetOutputMedium=PCB Info
+VariantName=Default
+VariantScope=1
+CurrentConfigurationName=Fabrication
+TargetPrinter=Virtual Printer
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium1=Print Job
+OutputMedium1_Type=Printer
+OutputMedium1_Printer=
+OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium2=PCB Info
+OutputMedium2_Type=Publish
+OutputMedium3=Gerber
+OutputMedium3_Type=GeneratedFiles
+OutputMedium4=Stencil
+OutputMedium4_Type=GeneratedFiles
+OutputMedium5=Stencil-Info
+OutputMedium5_Type=Publish
+OutputType1=PCBDrawing
+OutputName1=Fabrication
+OutputCategory1=Documentation
+OutputDocumentPath1=Fabrication.PCBDwf
+OutputVariantName1=
+OutputEnabled1=1
+OutputEnabled1_OutputMedium1=0
+OutputEnabled1_OutputMedium2=1
+OutputEnabled1_OutputMedium3=0
+OutputEnabled1_OutputMedium4=0
+OutputEnabled1_OutputMedium5=0
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType2=Gerber
+OutputName2=Gerber Files - Board Outline
+OutputCategory2=Fabrication
+OutputDocumentPath2=PCB.PcbDoc
+OutputVariantName2=
+OutputEnabled2=0
+OutputEnabled2_OutputMedium1=0
+OutputEnabled2_OutputMedium2=0
+OutputEnabled2_OutputMedium3=1
+OutputEnabled2_OutputMedium4=0
+OutputEnabled2_OutputMedium5=0
+OutputDefault2=0
+Configuration2_Name1=OutputConfigurationParameter1
+Configuration2_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=LABBFJIK|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16908291~1|PlotBoardProfile=False|PlotBoardProfileFileName=PCB_ZIF_Profile.gbr|PlotDrillDrawingLayerPair0_Backdrill=False|PlotDrillDrawingLayerPair0_Checked=False|PlotDrillDrawingLayerPair0_DrillType=Regular|PlotDrillDrawingLayerPair0_FileName=PCB_ZIF_Drawing_1.gbr|PlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|PlotDrillDrawingLayerPair0_LowLayer=Top Layer|PlotDrillGuideLayerPair0_Backdrill=False|PlotDrillGuideLayerPair0_Checked=False|PlotDrillGuideLayerPair0_DrillType=Regular|PlotDrillGuideLayerPair0_FileName=PCB_ZIF_Drillmap_1.gbr|PlotDrillGuideLayerPair0_HighLayer=Bottom Layer|PlotDrillGuideLayerPair0_LowLayer=Top Layer|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|UserLayerName.Caption0=PCB_ZIF_Bottom_3D_Body.gbr|UserLayerName.Caption1=PCB_ZIF_Paste_Top.gbr|UserLayerName.Caption10=PCB_ZIF_Top_Designator.gbr|UserLayerName.Caption11=PCB_ZIF_Mechanical_10.gbr|UserLayerName.Caption12=PCB_ZIF_Soldermask_Bot.gbr|UserLayerName.Caption13=PCB_ZIF_Mechanical_7.gbr|UserLayerName.Caption14=PCB_ZIF_Copper_Signal_3.gbr|UserLayerName.Caption15=PCB_ZIF_Mechanical_6.gbr|UserLayerName.Caption16=PCB_ZIF_Mechanical_16.gbr|UserLayerName.Caption17=PCB_ZIF_Copper_Signal_Bot.gbr|UserLayerName.Caption18=PCB_ZIF_Dekkplate.gbr|UserLayerName.Caption19=PCB_ZIF_Mechanical_15.gbr|UserLayerName.Caption2=PCB_ZIF_Legend_Top.gbr|UserLayerName.Caption20=PCB_ZIF_Mechanical_constraint_bottom.gbr|UserLayerName.Caption21=PCB_ZIF_Top_Assembly.gbr|UserLayerName.Caption22=PCB_ZIF_Copper_Signal_Top.gbr|UserLayerName.Caption23=PCB_ZIF_Bottom_Assembly.gbr|UserLayerName.Caption24=PCB_ZIF_Legend_Bot.gbr|UserLayerName.Caption25=PCB_ZIF_Pads_Top.gbr|UserLayerName.Caption26=PCB_ZIF_Isolation_distance.gbr|UserLayerName.Caption27=PCB_ZIF_Top_3D_Body.gbr|UserLayerName.Caption28=PCB_ZIF_Bottom_Component_Center.gbr|UserLayerName.Caption29=PCB_ZIF_Mechanical_9.gbr|UserLayerName.Caption3=PCB_ZIF_Soldermask_Top.gbr|UserLayerName.Caption30=PCB_ZIF_Mechanical_11.gbr|UserLayerName.Caption31=PCB_ZIF_Top_Component_Center.gbr|UserLayerName.Caption32=PCB_ZIF_Copper_Signal_1.gbr|UserLayerName.Caption33=PCB_ZIF_Mechanical_1.gbr|UserLayerName.Caption34=PCB_ZIF_Mechanical_8.gbr|UserLayerName.Caption35=PCB_ZIF_Bottom_Courtyard.gbr|UserLayerName.Caption36=PCB_ZIF_Copper_Signal_4.gbr|UserLayerName.Caption37=PCB_ZIF_Board_Outline.gbr|UserLayerName.Caption38=PCB_ZIF_Bottom_Designator.gbr|UserLayerName.Caption39=PCB_ZIF_Top_Courtyard.gbr|UserLayerName.Caption4=PCB_ZIF_Dimensions.gbr|UserLayerName.Caption40=PCB_ZIF_Keep-out.gbr|UserLayerName.Caption5=PCB_ZIF_Mechanical_2.gbr|UserLayerName.Caption6=PCB_ZIF_Mechanical_constraint_top.gbr|UserLayerName.Caption7=PCB_ZIF_Pads_Bot.gbr|UserLayerName.Caption8=PCB_ZIF_Paste_Bot.gbr|UserLayerName.Caption9=PCB_ZIF_Copper_Signal_2.gbr|UserLayerName.Count=41|UserLayerName.Layer0=16908311|UserLayerName.Layer1=16973832|UserLayerName.Layer10=16908307|UserLayerName.Layer11=16908298|UserLayerName.Layer12=16973835|UserLayerName.Layer13=16908295|UserLayerName.Layer14=16777219|UserLayerName.Layer15=16908294|UserLayerName.Layer16=16908304|UserLayerName.Layer17=16842751|UserLayerName.Layer18=16908293|UserLayerName.Layer19=16908303|UserLayerName.Layer2=16973830|UserLayerName.Layer20=16908302|UserLayerName.Layer21=16908305|UserLayerName.Layer22=16777217|UserLayerName.Layer23=16908306|UserLayerName.Layer24=16973831|UserLayerName.Layer25=16973848|UserLayerName.Layer26=16908301|UserLayerName.Layer27=16908309|UserLayerName.Layer28=16908314|UserLayerName.Layer29=16908297|UserLayerName.Layer3=16973834|UserLayerName.Layer30=16908299|UserLayerName.Layer31=16908313|UserLayerName.Layer32=16777220|UserLayerName.Layer33=16908289|UserLayerName.Layer34=16908296|UserLayerName.Layer35=16908312|UserLayerName.Layer36=16777221|UserLayerName.Layer37=16908291|UserLayerName.Layer38=16908308|UserLayerName.Layer39=16908310|UserLayerName.Layer4=16908292|UserLayerName.Layer40=16973837|UserLayerName.Layer5=16908290|UserLayerName.Layer6=16908300|UserLayerName.Layer7=16973849|UserLayerName.Layer8=16973833|UserLayerName.Layer9=16777218|DocumentPath=C:\Users\Public\Documents\Altium\Elop Insight USB Board\PCB_ZIF.PcbDoc
+OutputType3=Gerber
+OutputName3=Gerber Files - Solder Paste
+OutputCategory3=Fabrication
+OutputDocumentPath3=PCB.PcbDoc
+OutputVariantName3=
+OutputEnabled3=0
+OutputEnabled3_OutputMedium1=0
+OutputEnabled3_OutputMedium2=0
+OutputEnabled3_OutputMedium3=0
+OutputEnabled3_OutputMedium4=1
+OutputEnabled3_OutputMedium5=0
+OutputDefault3=0
+Configuration3_Name1=OutputConfigurationParameter1
+Configuration3_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=KYXLUFGW|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973833~1,16973832~1|PlotBoardProfile=False|PlotBoardProfileFileName=PCB_Profile.gbr|PlotDrillDrawingLayerPair0_Backdrill=False|PlotDrillDrawingLayerPair0_Checked=False|PlotDrillDrawingLayerPair0_DrillType=Regular|PlotDrillDrawingLayerPair0_FileName=PCB_Drawing_1.gbr|PlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|PlotDrillDrawingLayerPair0_LowLayer=Top Layer|PlotDrillGuideLayerPair0_Backdrill=False|PlotDrillGuideLayerPair0_Checked=False|PlotDrillGuideLayerPair0_DrillType=Regular|PlotDrillGuideLayerPair0_FileName=PCB_Drillmap_1.gbr|PlotDrillGuideLayerPair0_HighLayer=Bottom Layer|PlotDrillGuideLayerPair0_LowLayer=Top Layer|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|UserLayerName.Caption0=PCB_Keep-out.gbr|UserLayerName.Caption1=PCB_Paste_Top.gbr|UserLayerName.Caption10=PCB_Isolation_Distances.gbr|UserLayerName.Caption11=PCB_Copper_Signal_2.gbr|UserLayerName.Caption12=PCB_Enclosure.gbr|UserLayerName.Caption13=PCB_Bottom_Courtyard.gbr|UserLayerName.Caption14=PCB_Copper_Signal_Bot.gbr|UserLayerName.Caption15=PCB_Mounting_Hole_Placement.gbr|UserLayerName.Caption16=PCB_Top_Courtyard.gbr|UserLayerName.Caption17=PCB_Bottom_Assembly.gbr|UserLayerName.Caption18=PCB_Copper_Signal_Top.gbr|UserLayerName.Caption19=PCB_Legend_Bot.gbr|UserLayerName.Caption2=PCB_Legend_Top.gbr|UserLayerName.Caption20=PCB_Pads_Top.gbr|UserLayerName.Caption21=PCB_Top_Assembly.gbr|UserLayerName.Caption22=PCB_Top_Designator.gbr|UserLayerName.Caption23=PCB_Mechanical_11.gbr|UserLayerName.Caption24=PCB_Copper_Signal_3.gbr|UserLayerName.Caption25=PCB_Top_3D_Body.gbr|UserLayerName.Caption26=PCB_Board.gbr|UserLayerName.Caption27=PCB_Copper_Signal_4.gbr|UserLayerName.Caption28=PCB_Board_Outline.gbr|UserLayerName.Caption29=PCB_Paste_Bot.gbr|UserLayerName.Caption3=PCB_Soldermask_Top.gbr|UserLayerName.Caption4=PCB_Board_Outline_Dimensions.gbr|UserLayerName.Caption5=PCB_Bottom_3D_Body.gbr|UserLayerName.Caption6=PCB_Pads_Bot.gbr|UserLayerName.Caption7=PCB_Copper_Signal_1.gbr|UserLayerName.Caption8=PCB_Bottom_Designator.gbr|UserLayerName.Caption9=PCB_Soldermask_Bot.gbr|UserLayerName.Count=30|UserLayerName.Layer0=16973837|UserLayerName.Layer1=16973832|UserLayerName.Layer10=16908295|UserLayerName.Layer11=16777219|UserLayerName.Layer12=16908294|UserLayerName.Layer13=16908304|UserLayerName.Layer14=16842751|UserLayerName.Layer15=16908293|UserLayerName.Layer16=16908303|UserLayerName.Layer17=16908302|UserLayerName.Layer18=16777217|UserLayerName.Layer19=16973831|UserLayerName.Layer2=16973830|UserLayerName.Layer20=16973848|UserLayerName.Layer21=16908301|UserLayerName.Layer22=16908297|UserLayerName.Layer23=16908299|UserLayerName.Layer24=16777220|UserLayerName.Layer25=16908289|UserLayerName.Layer26=16908296|UserLayerName.Layer27=16777221|UserLayerName.Layer28=16908291|UserLayerName.Layer29=16973833|UserLayerName.Layer3=16973834|UserLayerName.Layer4=16908292|UserLayerName.Layer5=16908290|UserLayerName.Layer6=16973849|UserLayerName.Layer7=16777218|UserLayerName.Layer8=16908298|UserLayerName.Layer9=16973835|DocumentPath=C:\Users\Public\Documents\Altium\Tx Main Board\PCB.PcbDoc
+OutputType4=Gerber
+OutputName4=Gerber Files - PCB (Except Outline)
+OutputCategory4=Fabrication
+OutputDocumentPath4=PCB.PcbDoc
+OutputVariantName4=
+OutputEnabled4=0
+OutputEnabled4_OutputMedium1=0
+OutputEnabled4_OutputMedium2=0
+OutputEnabled4_OutputMedium3=2
+OutputEnabled4_OutputMedium4=0
+OutputEnabled4_OutputMedium5=0
+OutputDefault4=0
+Configuration4_Name1=OutputConfigurationParameter1
+Configuration4_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=KYXLUFGW|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973834~1,16777217~1,16777218~1,16777219~1,16777221~1,16777220~1,16842751~1,16973835~1|PlotBoardProfile=False|PlotBoardProfileFileName=PCB_Profile.gbr|PlotDrillDrawingLayerPair0_Backdrill=False|PlotDrillDrawingLayerPair0_Checked=False|PlotDrillDrawingLayerPair0_DrillType=Regular|PlotDrillDrawingLayerPair0_FileName=PCB_Drawing_1.gbr|PlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|PlotDrillDrawingLayerPair0_LowLayer=Top Layer|PlotDrillGuideLayerPair0_Backdrill=False|PlotDrillGuideLayerPair0_Checked=False|PlotDrillGuideLayerPair0_DrillType=Regular|PlotDrillGuideLayerPair0_FileName=PCB_Drillmap_1.gbr|PlotDrillGuideLayerPair0_HighLayer=Bottom Layer|PlotDrillGuideLayerPair0_LowLayer=Top Layer|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|UserLayerName.Caption0=PCB_Keep-out.gbr|UserLayerName.Caption1=PCB_Paste_Top.gbr|UserLayerName.Caption10=PCB_Isolation_Distances.gbr|UserLayerName.Caption11=PCB_Copper_Signal_2.gbr|UserLayerName.Caption12=PCB_Enclosure.gbr|UserLayerName.Caption13=PCB_Bottom_Courtyard.gbr|UserLayerName.Caption14=PCB_Copper_Signal_Bot.gbr|UserLayerName.Caption15=PCB_Mounting_Hole_Placement.gbr|UserLayerName.Caption16=PCB_Top_Courtyard.gbr|UserLayerName.Caption17=PCB_Bottom_Assembly.gbr|UserLayerName.Caption18=PCB_Copper_Signal_Top.gbr|UserLayerName.Caption19=PCB_Legend_Bot.gbr|UserLayerName.Caption2=PCB_Legend_Top.gbr|UserLayerName.Caption20=PCB_Pads_Top.gbr|UserLayerName.Caption21=PCB_Top_Assembly.gbr|UserLayerName.Caption22=PCB_Top_Designator.gbr|UserLayerName.Caption23=PCB_Mechanical_11.gbr|UserLayerName.Caption24=PCB_Copper_Signal_3.gbr|UserLayerName.Caption25=PCB_Top_3D_Body.gbr|UserLayerName.Caption26=PCB_Board.gbr|UserLayerName.Caption27=PCB_Copper_Signal_4.gbr|UserLayerName.Caption28=PCB_Board_Outline.gbr|UserLayerName.Caption29=PCB_Paste_Bot.gbr|UserLayerName.Caption3=PCB_Soldermask_Top.gbr|UserLayerName.Caption4=PCB_Board_Outline_Dimensions.gbr|UserLayerName.Caption5=PCB_Bottom_3D_Body.gbr|UserLayerName.Caption6=PCB_Pads_Bot.gbr|UserLayerName.Caption7=PCB_Copper_Signal_1.gbr|UserLayerName.Caption8=PCB_Bottom_Designator.gbr|UserLayerName.Caption9=PCB_Soldermask_Bot.gbr|UserLayerName.Count=30|UserLayerName.Layer0=16973837|UserLayerName.Layer1=16973832|UserLayerName.Layer10=16908295|UserLayerName.Layer11=16777219|UserLayerName.Layer12=16908294|UserLayerName.Layer13=16908304|UserLayerName.Layer14=16842751|UserLayerName.Layer15=16908293|UserLayerName.Layer16=16908303|UserLayerName.Layer17=16908302|UserLayerName.Layer18=16777217|UserLayerName.Layer19=16973831|UserLayerName.Layer2=16973830|UserLayerName.Layer20=16973848|UserLayerName.Layer21=16908301|UserLayerName.Layer22=16908297|UserLayerName.Layer23=16908299|UserLayerName.Layer24=16777220|UserLayerName.Layer25=16908289|UserLayerName.Layer26=16908296|UserLayerName.Layer27=16777221|UserLayerName.Layer28=16908291|UserLayerName.Layer29=16973833|UserLayerName.Layer3=16973834|UserLayerName.Layer4=16908292|UserLayerName.Layer5=16908290|UserLayerName.Layer6=16973849|UserLayerName.Layer7=16777218|UserLayerName.Layer8=16908298|UserLayerName.Layer9=16973835|DocumentPath=C:\Users\Public\Documents\Altium\Tx Main Board\PCB.PcbDoc
+OutputType5=NC Drill
+OutputName5=Drill Files
+OutputCategory5=Fabrication
+OutputDocumentPath5=PCB.PcbDoc
+OutputVariantName5=
+OutputEnabled5=0
+OutputEnabled5_OutputMedium1=0
+OutputEnabled5_OutputMedium2=0
+OutputEnabled5_OutputMedium3=3
+OutputEnabled5_OutputMedium4=0
+OutputEnabled5_OutputMedium5=0
+OutputDefault5=0
+Configuration5_Name1=OutputConfigurationParameter1
+Configuration5_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=True|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=True|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=KeepLeadingAndTrailingZeroes|DocumentPath=C:\Users\Public\Documents\Altium\Projects\Elop Insight USB Board\PCB_ZIF.PcbDoc
+OutputType6=PCBDrawing
+OutputName6=Draftsman
+OutputCategory6=Documentation
+OutputDocumentPath6=Stencil_Info.PCBDwf
+OutputVariantName6=
+OutputEnabled6=0
+OutputEnabled6_OutputMedium1=0
+OutputEnabled6_OutputMedium2=0
+OutputEnabled6_OutputMedium3=0
+OutputEnabled6_OutputMedium4=0
+OutputEnabled6_OutputMedium5=1
+OutputDefault6=0
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType7=Gerber
+OutputName7=Gerber Files - Silk Print
+OutputCategory7=Fabrication
+OutputDocumentPath7=PCB.PcbDoc
+OutputVariantName7=
+OutputEnabled7=0
+OutputEnabled7_OutputMedium1=0
+OutputEnabled7_OutputMedium2=0
+OutputEnabled7_OutputMedium3=4
+OutputEnabled7_OutputMedium4=0
+OutputEnabled7_OutputMedium5=0
+OutputDefault7=0
+Configuration7_Name1=OutputConfigurationParameter1
+Configuration7_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=2|NumberOfDecimals=2|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973831~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\Public\Documents\Altium\Projects\Elop Insight USB Board\PCB_ZIF.PcbDoc
+
+[PublishSettings]
+OutputFilePath2=C:\Users\Public\Documents\Altium\Tx Main Board\Project Outputs for Elop Insight Tx Main Board\Manufacturing-31023-G-2\PCB-41021-G-2\PCB-Info-41021-G-2.pdf
+ReleaseManaged2=1
+OutputBasePath2=
+OutputPathMedia2=='PCB-'+PartNumberZolvePCB+'-'+PartRevCustomerPCB+'-'+DocRevCustomerPCB
+OutputPathMediaValue2=='PCB-'+PartNumberZolvePCB+'-'+PartRevCustomerPCB+'-'+DocRevCustomerPCB
+OutputPathOutputer2=[Output Type]
+OutputPathOutputerPrefix2=
+OutputPathOutputerValue2=
+OutputFileName2=Fabrication.PDF
+OutputFileNameMulti2=
+UseOutputNameForMulti2=0
+OutputFileNameSpecial2=='PCB-Info-'+PartNumberZolvePCB+'-'+PartRevCustomerPCB+'-'+DocRevCustomerPCB+'.pdf'
+OpenOutput2=1
+PromptOverwrite2=1
+PublishMethod2=0
+ZoomLevel2=50
+FitSCHPrintSizeToDoc2=1
+FitPCBPrintSizeToDoc2=1
+GenerateNetsInfo2=1
+MarkPins2=1
+MarkNetLabels2=1
+MarkPortsId2=1
+GenerateTOC2=1
+ShowComponentParameters2=1
+GlobalBookmarks2=0
+PDFACompliance2=Disabled
+PDFVersion2=Default
+OutputFilePath3=C:\Users\Public\Documents\Altium\Elop Insight USB Board\Project Outputs for Elop Insight USB Adapter Board\
+ReleaseManaged3=1
+OutputBasePath3=Project Outputs for Elop Insight Tx Main Board
+OutputPathMedia3=
+OutputPathMediaValue3=
+OutputPathOutputer3=[Output Custom]
+OutputPathOutputerPrefix3=
+OutputPathOutputerValue3=='PCB-'+PartNumberZolvePCB+'-'+PartRevCustomerPCB+'-'+DocRevCustomerPCB
+OutputFileName3=
+OutputFileNameMulti3=='Gerber-'+PartNumberZolvePCB+'-'+PartRevCustomerPCB+'-'+DocRevCustomerPCB
+UseOutputNameForMulti3=0
+OutputFileNameSpecial3=
+OpenOutput3=1
+OutputFilePath4=C:\Users\Public\Documents\Altium\Elop Insight USB Board\Project Outputs for Elop Insight USB Adapter Board\
+ReleaseManaged4=1
+OutputBasePath4=Project Outputs for Elop Insight Tx Main Board
+OutputPathMedia4=
+OutputPathMediaValue4=
+OutputPathOutputer4=[Output Custom]
+OutputPathOutputerPrefix4=
+OutputPathOutputerValue4=='Stencil-'+PartNumberZolvePCB+'-'+PartRevCustomerPCB+'-'+DocRevCustomerPCB
+OutputFileName4=
+OutputFileNameMulti4=='Stencil-'+PartNumberZolvePCB+'-'+PartRevCustomerPCB+'-'+DocRevCustomerPCB
+UseOutputNameForMulti4=0
+OutputFileNameSpecial4=
+OpenOutput4=1
+OutputFilePath5=C:\Users\Public\Documents\Altium\Elop Insight USB Board\Project Outputs for Elop Insight USB Adapter Board\Stencil-CO4070-1-A\Stencil-Info-CO4070-1-A.pdf
+ReleaseManaged5=1
+OutputBasePath5=
+OutputPathMedia5=='Stencil-'+PartNumberZolvePCB+'-'+PartRevCustomerPCB+'-'+DocRevCustomerPCB
+OutputPathMediaValue5=='Stencil-'+PartNumberZolvePCB+'-'+PartRevCustomerPCB+'-'+DocRevCustomerPCB
+OutputPathOutputer5=[Output Type]
+OutputPathOutputerPrefix5=
+OutputPathOutputerValue5=
+OutputFileName5=Fabrication.PDF
+OutputFileNameMulti5=
+UseOutputNameForMulti5=0
+OutputFileNameSpecial5=='Stencil-Info-'+PartNumberZolvePCB+'-'+PartRevCustomerPCB+'-'+DocRevCustomerPCB+'.pdf'
+OpenOutput5=1
+PromptOverwrite5=1
+PublishMethod5=0
+ZoomLevel5=50
+FitSCHPrintSizeToDoc5=1
+FitPCBPrintSizeToDoc5=1
+GenerateNetsInfo5=1
+MarkPins5=1
+MarkNetLabels5=1
+MarkPortsId5=1
+GenerateTOC5=1
+ShowComponentParameters5=1
+GlobalBookmarks5=0
+PDFACompliance5=Disabled
+PDFVersion5=Default
+
+[GeneratedFilesSettings]
+RelativeOutputPath2=C:\Users\Public\Documents\Altium\Tx Main Board\Project Outputs for Elop Insight Tx Main Board\Manufacturing-31023-G-2\PCB-41021-G-2\PCB-Info-41021-G-2.pdf
+OpenOutputs2=1
+RelativeOutputPath3=C:\Users\Public\Documents\Altium\Elop Insight USB Board\Project Outputs for Elop Insight USB Adapter Board\
+OpenOutputs3=1
+AddToProject3=1
+TimestampFolder3=0
+UseOutputName3=0
+OpenODBOutput3=0
+OpenGerberOutput3=0
+OpenNCDrillOutput3=0
+OpenIPCOutput3=0
+EnableReload3=0
+RelativeOutputPath4=C:\Users\Public\Documents\Altium\Elop Insight USB Board\Project Outputs for Elop Insight USB Adapter Board\
+OpenOutputs4=1
+AddToProject4=1
+TimestampFolder4=0
+UseOutputName4=0
+OpenODBOutput4=0
+OpenGerberOutput4=0
+OpenNCDrillOutput4=0
+OpenIPCOutput4=0
+EnableReload4=0
+RelativeOutputPath5=C:\Users\Public\Documents\Altium\Elop Insight USB Board\Project Outputs for Elop Insight USB Adapter Board\Stencil-CO4070-1-A\Stencil-Info-CO4070-1-A.pdf
+OpenOutputs5=1
+
