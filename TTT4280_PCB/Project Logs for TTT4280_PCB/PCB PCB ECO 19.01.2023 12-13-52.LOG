@@ -1,0 +1,8 @@
+Added Component: Designator=MH1(MountingHole)
+Added Component: Designator=MH2(MountingHole)
+Added Component: Designator=MH3(MountingHole)
+Added Component: Designator=MH4(MountingHole)
+Added Member To Class: ClassName=Main Member=Component MH1 MountingHole
+Added Member To Class: ClassName=Main Member=Component MH2 MountingHole
+Added Member To Class: ClassName=Main Member=Component MH3 MountingHole
+Added Member To Class: ClassName=Main Member=Component MH4 MountingHole

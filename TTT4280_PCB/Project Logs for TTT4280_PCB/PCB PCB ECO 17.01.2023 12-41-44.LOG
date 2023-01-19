@@ -1,0 +1,60 @@
+Removed Pin From Net: NetName=0V Pin=C14-1
+Removed Pin From Net: NetName=3V3 Pin=C14-2
+Removed Pin From Net: NetName=0V Pin=C15-1
+Removed Pin From Net: NetName=3V3 Pin=C15-2
+Removed Pin From Net: NetName=0V Pin=C16-1
+Removed Pin From Net: NetName=3V3 Pin=C16-2
+Removed Pin From Net: NetName=0V Pin=C20-1
+Removed Pin From Net: NetName=3V3 Pin=C20-2
+Removed Pin From Net: NetName=0V Pin=C21-1
+Removed Pin From Net: NetName=3V3 Pin=C21-2
+Removed Pin From Net: NetName=DATA1 Pin=J2-2
+Removed Pin From Net: NetName=DATA2 Pin=J2-4
+Removed Pin From Net: NetName=DATA3 Pin=J2-8
+Removed Pin From Net: NetName=DATA4 Pin=J2-10
+Removed Pin From Net: NetName=DATA5 Pin=J2-12
+Change Component Footprint: Designator=C14 Old Footprint=CTHT Ceramic New Footprint=CTHT 4MM
+Change Component Footprint: Designator=C15 Old Footprint=CTHT Ceramic New Footprint=CTHT 4MM
+Change Component Footprint: Designator=C16 Old Footprint=CTHT Ceramic New Footprint=CTHT 4MM
+Change Component Footprint: Designator=C20 Old Footprint=CTHT Ceramic New Footprint=CTHT 4MM
+Change Component Footprint: Designator=C21 Old Footprint=CTHT Ceramic New Footprint=CTHT 8mm
+Change Component Comment : Designator=C14 Old Comment=100nF New Comment=1uF
+Change Component Comment : Designator=C15 Old Comment=100nF New Comment=1uF
+Change Component Comment : Designator=C16 Old Comment=100nF New Comment=1uF
+Change Component Comment : Designator=C20 Old Comment=100nF New Comment=1uF
+Change Component Comment : Designator=C21 Old Comment=100nF New Comment=470uF
+Change component parameters: Designator = "C14" ("C14"); Footprint = "CTHT Ceramic"; UniqueID = "\OZKHYXDX" ("\OZKHYXDX")
+Change component parameters: Designator = "C15" ("C15"); Footprint = "CTHT Ceramic"; UniqueID = "\BCXHJVBM" ("\BCXHJVBM")
+Change component parameters: Designator = "C16" ("C16"); Footprint = "CTHT Ceramic"; UniqueID = "\FBRFUKYQ" ("\FBRFUKYQ")
+Change component parameters: Designator = "C20" ("C20"); Footprint = "CTHT Ceramic"; UniqueID = "\AKSVWSMO" ("\AKSVWSMO")
+Change component parameters: Designator = "C21" ("C21"); Footprint = "CTHT Ceramic"; UniqueID = "\HAVVRZOJ" ("\HAVVRZOJ")
+Added Component: Designator=C11(CTHT 4MM)
+Added Component: Designator=J7(HDR1X2)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=C11-1
+Added Pin To Net: NetName=0V Pin=C11-2
+Added Pin To Net: NetName=3V3 Pin=C14-1
+Added Pin To Net: NetName=0V Pin=C14-2
+Added Pin To Net: NetName=3V3 Pin=C15-1
+Added Pin To Net: NetName=0V Pin=C15-2
+Added Pin To Net: NetName=3V3 Pin=C16-1
+Added Pin To Net: NetName=0V Pin=C16-2
+Added Pin To Net: NetName=3V3 Pin=C20-1
+Added Pin To Net: NetName=0V Pin=C20-2
+Added Pin To Net: NetName=3V3_Unfiltered Pin=C21-1
+Added Pin To Net: NetName=0V Pin=C21-2
+Added Pin To Net: NetName=DATA1 Pin=J2-8
+Added Pin To Net: NetName=DATA2 Pin=J2-10
+Added Pin To Net: NetName=DATA3 Pin=J2-12
+Added Pin To Net: NetName=DATA4 Pin=J2-16
+Added Pin To Net: NetName=DATA5 Pin=J2-18
+Added Pin To Net: NetName=3V3 Pin=J7-1
+Change Net Name : Old Net Name=CS New Net Name=C\S\
+Change Net Name : Old Net Name=IF_Filtered_1 New Net Name=IF_Filtered_I
+Change Net Name : Old Net Name=IF_Filtered_2 New Net Name=IF_Filtered_Q
+Added Pin To Net: NetName=3V3_M Pin=J7-2
+Added Net: Name=3V3_M
+Added Member To Class: ClassName=Main Member=Component C11 1uF
+Added Member To Class: ClassName=Main Member=Component J7 Microphone Power Jumper
