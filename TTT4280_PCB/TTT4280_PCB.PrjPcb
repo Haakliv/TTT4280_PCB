@@ -163,6 +163,10 @@ ParameterCount=0
 VariationCount=0
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for TTT4280_PCB\Design Rule Check - PCB.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=DocRevCustomerPCA
 Value=
